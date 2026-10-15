@@ -1,0 +1,22 @@
+{
+  "name": "dodojo",
+  "displayName": "dodojo",
+  "version": "2026.10.14",
+  "description": "Capture, find, organize, and revisit your private dodojo memories — text, links, images, files, audio and reminders — through the dodojo OAuth MCP server.",
+  "icon": "./assets/icon.png",
+  "author": {
+    "name": "dodojo",
+    "email": "contact@dodojo.ai",
+    "url": "https://www.dodojo.ai"
+  },
+  "homepage": "https://www.dodojo.ai/resources/mcp-and-api",
+  "repository": "https://www.dodojo.ai/plugin",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "notes",
+    "knowledge-management",
+    "productivity",
+    "dodojo"
+  ]
+}

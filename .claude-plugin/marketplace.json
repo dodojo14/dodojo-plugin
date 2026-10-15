@@ -1,0 +1,16 @@
+{
+  "name": "dodojo",
+  "description": "The official dodojo memory plugin: an OAuth MCP connector plus the skill that teaches Claude when to save and how to file your private memories.",
+  "owner": {
+    "name": "dodojo",
+    "email": "contact@dodojo.ai",
+    "url": "https://www.dodojo.ai"
+  },
+  "plugins": [
+    {
+      "name": "dodojo",
+      "source": "./",
+      "description": "Capture, find, organize, and revisit your private dodojo memories through the dodojo OAuth MCP server, with the skill that teaches Claude when to save and how to file."
+    }
+  ]
+}

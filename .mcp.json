@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dodojo": {
+      "type": "http",
+      "url": "https://www.dodojo.ai/api/mcp"
+    }
+  }
+}
