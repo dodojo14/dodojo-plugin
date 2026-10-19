@@ -29,6 +29,12 @@ Create a private memory in Inbox or an explicitly selected collection.
   plans, and guides.
 - `title`: optional, max 200 characters. Body-first capture does not require it.
 - `idempotency_key`: reuse the same value when retrying the same save.
+- `created_at`: optional historical ISO 8601 timestamp with a UTC offset, only
+  when the user explicitly requests backdated imports or historical test data.
+  Sets creation and capture dates on a new Note; retries never rewrite an
+  existing creation date. Later edits, including attaching media, still advance
+  the last-edited date. Use Date added sorting for a historical timeline.
+  Omit for ordinary captures; future timestamps are rejected.
 - `tags`: max 20; include only tags explicitly supplied or requested by the
   user. Never infer or generate tags.
 - `collection`: max 60 characters. Call `list_collections` before choosing it.
